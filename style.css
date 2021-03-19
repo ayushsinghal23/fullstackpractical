@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url("download (1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+   
+}
+#head{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    /* justify-content: space-around!important; */
+    height: 10%;
+    background-color: rgba(3, 3, 3, 0.692);
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.logo>img{
+    height: 30px;
+}
+.mid{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    width: 90%;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+.mid>li>a{
+    color:rgb(199, 196, 196);
+    padding-bottom: 5px;
+    border: 3px solid transparent;
+    transition: 0.5s;
+    
+}
+.mid>li>a:hover{
+    border-bottom-color: rgb(80, 153, 72);
+    color:rgb(80, 153, 72);
+}
+
+main{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position:relative;
+    background-color: rgba(3, 3, 3, 0.692);
+ 
+}
+#center-image{
+    width: 700px;
+}
+.center-text{
+    color:rgb(199, 196, 196);
+    font-size: 3rem;
+    font-weight: 400!important;
+    font-family: 'Merriweather', serif;
+    margin-top: 50px;
+    letter-spacing: .2rem;
+
+}
+button{
+    background:transparent;
+    border:3px solid whitesmoke;
+    color:whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 12px 50px;
+    margin-top: 40px;
+    cursor: pointer;
+    outline: none;
+    transition:.5s;
+
+}
+button:hover{
+    background: whitesmoke;
+    color:rgb(75, 74, 74);
+}
+.fa{
+    margin-right:5px;
+    color:white!important;
+}
